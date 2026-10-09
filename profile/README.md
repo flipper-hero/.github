@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>Open-source tools that make the Flipper Zero smarter, safer and more fun.</b><br>
-  An AI agent for your Flipper on your iPhone, and the pixels to go with it.
+  An AI agent for your Flipper on your iPhone, the device from your terminal, and the pixels to go with it.
 </p>
 
 ---
@@ -45,6 +45,30 @@ Asset pack for Momentum and RogueMaster, plus a classic dolphin layout for Unlea
 firmware.
 
 `Python` · `Pixel art` · `CC0 artwork`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🖥️ cli](https://github.com/flipper-hero/cli)
+
+**Your Flipper Zero, from your terminal.** One Rust binary over USB and Bluetooth for macOS, Linux,
+Windows and FreeBSD — and the JSON contract your local AI agents need to drive the device too.
+
+- Storage, signals, emulation, screen capture, buttons, GPIO, raw protobuf RPC
+- Human text by default, exactly one JSON document with `--json`
+- Prebuilt binaries for every platform, tested against real hardware
+- Pairs with the iOS app: same RPC, same safety philosophy, no phone required
+
+`Rust` · `USB` · `Bluetooth LE` · `MIT`
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 [flipper-hero.net](https://flipper-hero.net)
+
+Project home: downloads, release notes and documentation for the iOS app and the CLI in one place.
 
 </td>
 </tr>
